@@ -1,13 +1,14 @@
 #include "main.h"
-#include <unitstd.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: the character to print
- *
- * Return: On success 1
+ * print_alphabet - prints the alpha in lowercase
  */
-int _putchar(char c)
+void print-alphabet(void)
 {
-	return (write(1, &c, 1));
+	char la;
+
+	for (la = 'a'; la <= 'z', la++)
+		_putchar(la);
+	
+	_putchar('\n');
 }
