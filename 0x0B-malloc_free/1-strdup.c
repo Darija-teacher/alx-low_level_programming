@@ -14,7 +14,7 @@ int main(void)
 	s = _strdup("ALXSE");
 	if (s == NULL)
 	{
-		print("failed to allocate memory\n");
+		printf("failed to allocate memory\n");
 		return (1);
 	}
 	printf("%s\n", s);
